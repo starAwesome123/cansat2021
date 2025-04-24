@@ -1,43 +1,34 @@
 # cansat2021
 
-# 📡 CanSat Project – PCB Design
+# CanSat Final Project - SSTLAB Course 🚀🌍
 
-## 🛠 Project Overview
-This project is part of a student-built **CanSat (Can-sized Satellite)** system. The mission was to measure atmospheric pollution and transmit data during descent. The system was divided across **three custom-designed PCBs**, each with a specific role.
+## Overview 📝
+This project was part of the SSTLAB course, where I worked on the PCB and power design subsystem for a CanSat project. The aim of the CanSat was to detect pollution, measture the temprutere, height of the CanSat, pressure in the atmosphere, using various sensors and components to gather and transmit data.
 
-## 🧩 My Role
-**PCB Designer** – I was responsible for designing the PCBs using **DipTrace**, ensuring the circuit layout met power, sensor, and communication requirements.
+## Project Components 🔧
+The project involved three distinct PCBs, each with a specific role in the overall system:
 
----
+- **PCB 1**: Power Supply and Voltage Regulator ⚡
+- **PCB 2**: Microcontroller (ATmega328), MPU 🧠
+- **PCB 3**: GPS, MQ-35 Gas Sensor, RF Transmitter 🌍💨📡
 
-## 🔌 PCB Breakdown
+Each PCB was designed to interact with the others, with the power supply ensuring stable operation for all components, and the microcontroller handling sensor data and communication with the RF transmitter for data transmission.
 
-### 🔋 PCB 1 – Power Supply & Voltage Regulation
-- Converts and regulates voltage for the entire CanSat system.
-- Ensures clean, stable power for microcontroller and sensors.
+## My Role 👨‍💻
+I focused on the **PCB Design and Power System** aspects of the project. My main responsibilities included:
+- Designing the PCB layout and ensuring efficient power distribution.
+- Selecting and implementing the voltage regulator and power management components.
+- Ensuring all components were properly powered for stable operation during flight.
 
-### 🤖 PCB 2 – Microcontroller & IMU
-- Features **ATmega328** microcontroller.
-- Includes **MPU (Motion Processing Unit)** for orientation and movement sensing.
+## Tools Used 🛠️
+- **DipTrace**: Used for PCB design and layout.
 
-### 📡 PCB 3 – GPS, MQ-135 Gas Sensor, RF Transmitter
-- **GPS Module** for location tracking.
-- **MQ-135** sensor to detect air pollution.
-- **RF Transmitter** to send data to the ground station.
+## Project Outcome 🎯
+The CanSat was successfully designed to detect and transmit atmospheric data using a gas sensor (MQ-35), GPS for location tracking, and an RF transmitter for communication. The power subsystem ensured reliable operation of all components, and the PCB designs were finalized and prepared for fabrication.
+.
 
----
+## Conclusion 🏁
+This project was a valuable experience that helped me strengthen my skills in PCB design, power systems, and sensor integration. It also allowed me to work on a complex system that simulates the operation of real-world satellites.
 
-## 🧰 Tools Used
-- **DipTrace** for schematic and PCB design.
-- Coordination with the team for sensor integration and system functionality.
-
----
-
-## 📝 Highlights
-- Designed compact, functional PCBs under hardware constraints.
 - Focused on clean routing, signal integrity, and hardware debugging.
 - Learned practical electronics design applicable to embedded and aerospace systems.
-
----
-
-> 📥 **You can download the full work sample here**: [Insert your Drive or GitHub link]
